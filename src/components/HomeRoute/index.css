@@ -1,0 +1,9 @@
+.home-route-container {
+  min-height: 100vh;
+  background-color: #161625;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+}

@@ -1,0 +1,48 @@
+.home-page-cases-count {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.home-page-cases-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+@media screen and (min-width: 768px) {
+  .home-page-cases-count {
+    justify-content: center;
+  }
+  .home-page-cases-list-item {
+    width: 20%;
+  }
+}
+
+.count-heading {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.cases-count {
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.confirmed {
+  color: #ff073a;
+}
+.active {
+  color: #007bff;
+}
+.recovered {
+  color: #28a745;
+}
+.deceased {
+  color: #6c757d;
+}

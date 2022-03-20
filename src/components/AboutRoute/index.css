@@ -1,0 +1,63 @@
+.about-route-container {
+  min-height: 100vh;
+  background-color: #161625;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-details {
+  padding: 30px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .about-details {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+.about-route-heading {
+  color: #f8fafc;
+  font-size: 48px;
+  font-family: Roboto;
+}
+
+.faq-question {
+  color: #94a3b8;
+  font-size: 18px;
+  font-family: Roboto;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+.sub-heading {
+  color: #e2e8f0;
+  font-size: 24px;
+  font-family: Roboto;
+}
+.faq-answer {
+  color: #007bff;
+  font-size: 16px;
+  font-family: Roboto;
+  margin: 0px;
+}
+
+.faqs-list {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.faq-list-item {
+  padding-bottom: 20px;
+}
+
+.factoids-list {
+  margin: 0px;
+  pad: 0px;
+}
+
+.factoid {
+  color: #94a3b8;
+}
